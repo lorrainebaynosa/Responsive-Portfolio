@@ -328,15 +328,17 @@ a:hover {
         padding: 20px;
         margin-left: 5%;
     }
-    .nav {
+    nav {
         margin-left: 0%;
     }
     }
 @media screen and  (max-width: 768px) {
-
+    .content-profile {
+        margin: 3% 30% 30% 5%;
+        width: 90%;
+    }
+    }
     
-@media screen and  (max-width: 640px) {
-
 /* @media screen tags for contact.html */
 @media screen and  (max-width: 980px) {
     .content-contact {
@@ -350,20 +352,11 @@ a:hover {
         padding: 20px;
         margin-left: 5%;
     }
-    .nav {
+    nav {
         margin-left: 0%;
     }
     }
-
-
-@media screen and  (max-width: 768px) {
     
-
-
-@media screen and  (max-width: 640px) {
-    
-
-
 /* @media screen tags for portfolio.html */
 @media screen and  (max-width: 640px) {
  .content-portfolio {
@@ -396,7 +389,7 @@ a:hover {
     padding: 5% 20% 5% 20%;
     text-align: center;
     width: 50%;
-    top: 600px;
+    top: 600px;   
     left: 29px;
 }
 
@@ -416,4 +409,8 @@ a:hover {
 .img2, .img4 {
     margin-right: 0px;
 }
+
+header {
+    position: static;
+}   
 }
