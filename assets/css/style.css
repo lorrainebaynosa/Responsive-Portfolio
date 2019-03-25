@@ -35,9 +35,9 @@ header {
 
 nav {
     display: block;
-    float: right;
+    float: left;
     line-height: 70px;
-    margin-right: 265px;
+    margin-left: 375px;
 }
 
 nav li {
@@ -313,63 +313,47 @@ a:hover {
 }
 /* @media screen tags for index.html */
 @media screen and  (max-width: 980px) {
-    header {
-        width: 100%;
-    }
     .content-profile {
-        width: 100%;
+        margin: 3% 30% 10% 5%;
+        width: 60%;
+        padding: 20px;
+        font-size: 100%;
+        height: 5%;
+    }   
+    p {
+        font-size: 90%;
+        line-height: 150%;
     }
-    .aboutme {
-        width: 100%;
+    .name {
+        padding: 20px;
+        margin-left: 5%;
     }
-    #lorrie {
-        width: 30%;
-    }
-    p   {
-        width: 70%
+    .nav {
+        margin-left: 0%;
     }
     }
-
 @media screen and  (max-width: 768px) {
-    header  {
-    width: 100%; 
-    }
-    .content-profile {
-        width: 100%;
-    }
-    .aboutme {
-        width: 100%;
-    }
-    #lorrie {
-        width: 46%;
-    }
-    p   {
-        width: 54%
-    }
-    }
 
-
+    
 @media screen and  (max-width: 640px) {
-    header  {
-        width: 50%; 
-    }
-    .content-profile {
-        width: 100%;
-    }
-    .aboutme {
-        width: 100%;
-    }
-    #lorrie {
-        width: 100%;
-    }
-    p   {
-        width: 100%
-    }
-
 
 /* @media screen tags for contact.html */
 @media screen and  (max-width: 980px) {
     .content-contact {
+        margin: 3% 30% 10% 5%;
+        width: 60%;
+        padding: 20px;
+        font-size: 100%;
+        height: 5%;
+    }   
+    .name {
+        padding: 20px;
+        margin-left: 5%;
+    }
+    .nav {
+        margin-left: 0%;
+    }
+    }
 
 
 @media screen and  (max-width: 768px) {
@@ -381,14 +365,55 @@ a:hover {
 
 
 /* @media screen tags for portfolio.html */
-@media screen and  (max-width: 980px) {
-    .content-portfolio {
-
-
-@media screen and  (max-width: 768px) {
-    
-
-
 @media screen and  (max-width: 640px) {
-    
+ .content-portfolio {
+    margin: 3%;
+    padding: 3%;
+ }     
+.puppy {
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    width: 50%;
+    top: 1630px;
+    left: 29px;
+} 
+.fashion {
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    width: 50%;
+    top: 1280px;
+    left: 29px;
+} 
+.sunset {
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    width: 50%;
+    top: 930px;
+    left: 29px;
+}
 
+.ocean {
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    width: 50%;
+    top: 600px;
+    left: 29px;
+}
+
+.flowers {
+    padding: 5% 20% 5% 20%;
+    text-align: center;
+    width: 50%;
+    top: 250px;
+    left: 29px;
+}
+.img1, .img2, .img3, .img4, .img5 {
+    max-width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.img2, .img4 {
+    margin-right: 0px;
+}
+}
